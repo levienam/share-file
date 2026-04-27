@@ -1,0 +1,40 @@
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+form {
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  max-width: 90%;
+  width: 400px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="file"],
+input[type="submit"] {
+  display: block;
+  margin: 10px auto;
+  width: 100%;
+}
+
+progress {
+  width: 90%;
+  height: 20px;
+  margin-top: 10px;
+}
+
+.qr img {
+  max-width: 200px;
+  margin: 10px auto;
+}
+
